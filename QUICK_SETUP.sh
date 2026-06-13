@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Photo Vault - Quick Setup Script
+# This file contains the manual steps you need to complete
+
+echo "🚀 Photo Vault - Complete Setup Checklist"
+echo "=========================================="
+echo ""
+echo "✅ Step 1: Create MongoDB Database"
+echo "   URL: https://www.mongodb.com/cloud/atlas"
+echo "   Username: photovault"
+echo "   Password: bittu000@#"
+echo "   Copy the connection string you get"
+echo ""
+echo "✅ Step 2: Deploy to Vercel"
+echo "   URL: https://vercel.com/new"
+echo "   Select repo: aritrasahabengaltv/Ari"
+echo "   Add env variable: MONGODB_URI = <your connection string>"
+echo "   Copy your Vercel URL after deployment"
+echo ""
+echo "✅ Step 3: Update API URL in GitHub"
+echo "   Edit: index.html"
+echo "   Find: const API_URL = ..."
+echo "   Replace with your Vercel URL"
+echo ""
+echo "✅ Step 4: Enable GitHub Pages"
+echo "   Settings → Pages → Deploy from main branch"
+echo ""
+echo "✅ Step 5: Test"
+echo "   URL: https://aritrasahabengaltv.github.io/Ari/"
+echo "   Password: 6905"
+echo ""
+echo "📊 Your Photo Vault will be live in 5 minutes! 🎉"
